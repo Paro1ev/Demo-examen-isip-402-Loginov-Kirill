@@ -1,0 +1,26 @@
+GET http://localhost:5087/
+
+###
+
+POST http://localhost:5087/
+Content-Type: application/json
+
+{
+    "number"             : "1" ,
+    "fio"                 : "1" ,
+    "phonenumber"        : "1" ,
+    "wishes"              : "1" ,
+    "hoteladdres"         : "1" ,
+    "appartmentnumber"    : "1" ,
+    "arrivaldate"         : "1" ,
+    "departuredate"       : "1" 
+}
+###
+
+PUT http://localhost:5087/1
+
+{
+  "arrivaldate"           : "03.03.20",
+    "wishes"              : "завтрак надо",
+  "departuredate"         : "04.03.20"
+}
